@@ -5,4 +5,6 @@ def dummy(a):
         return 2
     elif a==3:
         return 3
+    elif a==5:
+        return 5
     return 4
