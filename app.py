@@ -1,5 +1,5 @@
 def dummy(a):
-    if a==1:
+    if a==2:
         return 1
     elif a==2:
         return 2
