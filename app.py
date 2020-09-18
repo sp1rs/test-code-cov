@@ -7,4 +7,4 @@ def dummy(a):
         return 3
     elif a==5:
         return 5
-    return 4
+    return 5
