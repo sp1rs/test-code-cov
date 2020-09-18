@@ -1,2 +1,19 @@
+documentation:
+  - '*.md' # Begins with a special char (*), so much be in quotes
+  - doc/*
+  - LICENSE
+
 repo:
-  - ./*
+  - .github/*
+  - .github/**/*
+  - .gitignore
+  - .travis.yml
+
+tests:
+  - tests/*
+
+packaging:
+  - MANIFEST.in
+  - requirements.txt
+  - requirements_dev.txt
+  - setup.py
